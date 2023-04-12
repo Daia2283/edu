@@ -1,0 +1,448 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.h1s {
+  line-height: 100px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  float: left;
+}
+
+.hover {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.hover:hover {
+  color: #f5a425;
+}
+
+
+.main-banner {
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  margin-bottom: -7px;
+}
+
+ #bg-video {
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+} 
+
+ #bg-video::-webkit-media-controls {
+    display: none !important;
+} 
+ 
+.video-overlay {
+    position: absolute;
+    background-color: rgba(31,39,43,0.75);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+} 
+
+.main-banner .caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main-banner .caption h6 {
+  margin-top: 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.main-button-red  {
+  font-size: 13px;
+  color: #fff;
+  background-color: #a12c2f;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color:#000;
+
+  font-size: 18px;
+}
+a:hover{
+
+  color:#ffc107;
+}
+
+.main-banner .caption h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.main-banner .caption h2 em {
+  font-style: normal;
+  color: #f5a425;
+  font-weight: 900;
+}
+
+.main-banner .caption p {
+  color: #fff;
+  font-size: 14px;
+  max-width: 570px;
+}
+
+.main-banner .caption .main-button-red {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .main-banner .caption h6 {
+    font-weight: 500;
+  }
+
+  .main-banner .caption h2 {
+    font-size: 36px;
+  }
+
+}
+.case1{
+  background-image: url(../images/meetings-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 110px;
+}
+
+.bg-red{
+  background: url(../images/service-item-bg.jpg);
+  background-position:  center;
+  background-size: cover;
+  background-position: center center;
+    border-radius: 20px;
+    text-align: center;
+}
+.section-heading h2 {
+  line-height: 40px;
+  margin-top: 0px;
+  margin-bottom: 50px; 
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(250,250,250,0.15);
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+.categories{
+  background: #fff;
+  color: black;
+  border-radius: 20px;
+  padding: 40px;
+
+}
+.main-button-reds {
+  font-size: 13px;
+  color: #fff;
+  background-color: #a12c2f;
+  padding: 12px 30px;
+  display: block;
+  border-radius: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+  text-decoration: none;
+  text-align: center;
+}
+
+ .categories li{
+  list-style-type: none;
+  line-height: 2em;
+  font-size: 16px;
+  
+  
+}
+.h1t{
+  font-size: 12px;
+}
+.xx{
+font-size: 20px;
+font-weight: normal;
+}
+
+.section-headings h2{
+  
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px; 
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+  section.upcoming-meetings .categories h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f272b;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  .bb{
+    border-bottom: 1px solid rgb(218, 214, 214);
+  }
+  .meeting-item {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .meeting-item .thumb {
+    position: relative;
+  }
+  
+  .meeting-item .thumb img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: 50%;
+  }
+  
+  .meeting-item .thumb .price {
+  position: absolute;
+   left: 20px;
+   top: 20px;
+  }
+  
+  .meeting-item .thumb .price span {
+    font-size: 16px;
+    color: #1f272b;
+    font-weight: 600;
+    background-color: rgba(245, 6, 6, 0.651);
+    padding: 7px 12px;
+    border-radius: 10px;
+  }
+  
+  .meeting-item .down-content {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .meeting-item .down-content .date {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .meeting-item .down-content .date h6 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #a12c2f;
+  }
+  
+  .meeting-item .down-content .date span {
+    display: block;
+    color: #1f272b;
+    font-size: 22px;
+    margin-top: 7px;
+  }
+  
+  .meeting-item .down-content h4 {
+    font-size: 18px;
+    color: #1f272b;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .meeting-item .down-content p {
+    margin-left: 50px;
+    color: #1f272b;
+    font-size: 14px;
+  }
+ 
+.case2{
+  background-image: url(../images/apply-bg.jpg);
+  background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 110px;
+}
+.red{
+  background: #a12c2f;
+  padding:  7px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  color: #fff;
+}
+.yellow{
+  background: #ffc107;
+  padding:  7px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  color: #fff;
+}
+.items{
+  background: #ffffff25;
+ opacity: 1;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.yellow:hover{
+color: #000;
+}
+.red:hover{
+  color: #000;
+  }
+.case3{
+  background-image: url(../images/facts-bg.jpg);
+  background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 110px;
+}
+.ix{
+  background: #ffffff25;
+    opacity: 1;
+   
+}
+.bx{
+  font-weight: bold;
+}
+.coven{
+  background: #fff;
+padding: 20px;
+  margin: 100px;
+  border-radius: 20px;
+  
+}
+section.contact-us #contact button {
+  font-size: 13px;
+  color: #fff;
+  background-color: #a12c2f;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+  border: none;
+  outline: none;
+}
+section.contact-us #contact input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #7a7a7a;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+
+
+section.contact-us #contact textarea {
+  width: 100%;
+  min-height: 140px;
+  max-height: 180px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #7a7a7a;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.right-info{
+  padding: 30px;
+  color: #fff;
+  background: #a12c2f;
+  border-radius: 10px;
+
+}
+.right-info li{
+padding: 20px;
+list-style-type: none;
+border-bottom: solid 0.25px #fff;
+display: block;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+
+}
+.bbx{
+  background: #a12c3057;
+}
+.footer {
+  text-align: center;
+  margin-top: 140px;
+  border-top: 1px solid rgba(250,250,250,0.15);
+  padding: 50px 0px;
+}
+.footer p {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer p a {
+  color: #f5a425;
+}
+section.contact-us #contact h2 {
+  text-transform: uppercase;
+  color: #1f272b;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+
